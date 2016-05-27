@@ -1,0 +1,64 @@
+{
+    "samples": [
+    
+                {
+                    "id":"0",
+                    "name":"rgb",
+                    "github":"https://github.com/nick0904/RGB_App",
+                    "imgStr":["rgbSample_0.png","rgbSample_1.png","rgbSample_2.png","rgbSample_3.png"],
+                    "content":["App首頁","選擇不同圖層 調整其RGBA值","選擇文字圖層 可變更文字型態及大小","隱藏文字"]
+                },
+                {
+                    "id":"1",
+                    "name":"ox",
+                    "github":"https://github.com/nick0904/OOXX_App.git",
+                    "imgStr":["oxSample_0.png","oxSample_1.png","oxSample_2.png","oxSample_3.png","oxSample_4.png"],
+                    "content":["App首頁","選擇 O 或 X","任一玩家勝利時的畫面","顯示各局勝負列表","點選列表 可觀看各局記錄"]
+                },
+                {
+                    "id":"2",
+                    "name":"guess",
+                    "github":"https://github.com/nick0904/GuessNumber.git",
+                    "imgStr":["guessSample_0.png","guessSample_1.png","guessSample_2.png","guessSample_3.png","guessSample_4.png","guessSample_5.png"],
+                    "content":["猜字母遊戲畫面","點擊左下角選單","每個小遊戲有個別的提示說明","猜數次遊戲畫面","猜對數字時的畫面","猜單一數字遊戲畫面"]
+                },
+                {
+                    "id":"3",
+                    "name":"pet",
+                    "github":"https://github.com/nick0904/PetApp",
+                    "imgStr":["petSample_0.png","petSample_1.png","petSample_2.png","petSample_3.png","petSample_4.png"],
+                    "content":["App首頁","台北市動物之家所收養之動物清單","點選列表 可觀看動物相關資訊","台北市動保處及動物之家相關連絡方式","可選擇 寄送電子郵件 電話聯絡 官網瀏覽"]
+                },
+                {
+                "id":"4",
+                "name":"robability",
+                "github":"https://github.com/nick0904/Probability_App.git",
+                "imgStr":["proSample_0.png","proSample_1.png","proSample_2.png","proSample_3.png","proSample_4.png"],
+                "content":["搖晃手機 玩猜拳","搖晃手幾 玩骰子","手指向上滑動 擲筊","顯示 聖筊 - 笑筊 - 無筊","手指向右滑動 電腦幫您決定 Yes 或 NO"]
+                },
+                {
+                "id":"5",
+                "name":"compare",
+                "github":"https://github.com/nick0904/Compare.git",
+                "imgStr":["compareSample_0.png","compareSample_1.png","compareSample_2.png","compareSample_3.png","compareSample_4.png","compareSample_5.png","compareSample_6.png"],
+                "content":["App首頁 可選擇抽牌 或 樂透機 來比大小","生成15張撲克牌","玩家1 與 玩家2 各選一張","按下 VS鈕 揭曉結果","樂透機比大小","玩家按下轉動扭 便可得到一顆樂透球","勝負揭曉"]
+                },
+                {
+                "id":"6",
+                "name":"bike",
+                "github":"https://github.com/nick0904/TaitchungBike.git",
+                "imgStr":["bikeSample_0.png","bikeSample_1.png","bikeSample_2.png","bikeSample_3.png","bikeSample_4.png","bikeSample_5.png","bikeSample_6.png","bikeSample_7.png","bikeSample_8.png","bikeSample_9.png","bikeSample_10.png","bikeSample_11.png"],
+                "content":["App首頁","單車相關選項","設備介紹","設備介紹","租借與還車說明","租車費用介紹","單車據點查詢與站內尚未租借單車數量","關鍵字查詢","單車據點位置與定位","選擇地圖導航","Apple地圖導航","Google地圖導航"]
+                },
+                {
+                "id":"7",
+                "name":"postNote",
+                "github":"https://github.com/nick0904/PostNote.git",
+                "imgStr":["postSample_0.png","postSample_1.png","postSample_2.png","postSample_3.png","postSample_4.png","postSample_5.png","postSample_6.png","postSample_7.png","postSample_8.png"],
+                "content":["App首頁","編輯頁面 可編輯文字與圖片","儲存文字與圖片","檢視已存的便利貼","選擇刪除或分享給家人朋友","點選列表 檢視全部內容","三種分享模式","選擇分享軟體","藉由通訊軟體分享"]
+                }
+                
+                
+                ]
+    
+}

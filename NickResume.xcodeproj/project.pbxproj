@@ -7,25 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1083AC01CE4E9B500CB332E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1083ABF1CE4E9B500CB332E /* DetailViewController.m */; };
+		D1083AC31CE57EA500CB332E /* AutobiographyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1083AC21CE57EA500CB332E /* AutobiographyViewController.m */; };
+		D1083AC51CE5819700CB332E /* autobiography.txt in Resources */ = {isa = PBXBuildFile; fileRef = D1083AC41CE5819700CB332E /* autobiography.txt */; };
+		D1083AC91CE59B4300CB332E /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1083AC81CE59B4300CB332E /* ConnectionViewController.m */; };
+		D1083ACB1CE5BB7400CB332E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1083ACA1CE5BB7400CB332E /* MessageUI.framework */; };
+		D1083ACE1CE5CF2400CB332E /* SubDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1083ACD1CE5CF2400CB332E /* SubDetailViewController.m */; };
+		D1083AD11CE764D100CB332E /* GitHubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1083AD01CE764D100CB332E /* GitHubViewController.m */; };
+		D1083AD51CE786A400CB332E /* GitHubDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1083AD41CE786A400CB332E /* GitHubDetailViewController.m */; };
+		D1083AD71CE82BC900CB332E /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = D1083AD61CE82BC900CB332E /* sample.json */; };
 		D11EBDD31CE4C1AA0032E5B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D11EBDD21CE4C1AA0032E5B1 /* main.m */; };
 		D11EBDD61CE4C1AA0032E5B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D11EBDD51CE4C1AA0032E5B1 /* AppDelegate.m */; };
 		D11EBDD91CE4C1AA0032E5B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D11EBDD81CE4C1AA0032E5B1 /* ViewController.m */; };
-		D11EBDDC1CE4C1AA0032E5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11EBDDA1CE4C1AA0032E5B1 /* Main.storyboard */; };
 		D11EBDDE1CE4C1AA0032E5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D11EBDDD1CE4C1AA0032E5B1 /* Assets.xcassets */; };
 		D11EBDE11CE4C1AA0032E5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D11EBDDF1CE4C1AA0032E5B1 /* LaunchScreen.storyboard */; };
+		D11EBDEC1CE4C2680032E5B1 /* ResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D11EBDE91CE4C2680032E5B1 /* ResumeViewController.m */; };
+		D11EBDED1CE4C2680032E5B1 /* ResumeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D11EBDEB1CE4C2680032E5B1 /* ResumeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1083ABE1CE4E9B500CB332E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D1083ABF1CE4E9B500CB332E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D1083AC11CE57EA500CB332E /* AutobiographyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutobiographyViewController.h; sourceTree = "<group>"; };
+		D1083AC21CE57EA500CB332E /* AutobiographyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutobiographyViewController.m; sourceTree = "<group>"; };
+		D1083AC41CE5819700CB332E /* autobiography.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = autobiography.txt; sourceTree = "<group>"; };
+		D1083AC71CE59B4300CB332E /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		D1083AC81CE59B4300CB332E /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		D1083ACA1CE5BB7400CB332E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		D1083ACC1CE5CF2400CB332E /* SubDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubDetailViewController.h; sourceTree = "<group>"; };
+		D1083ACD1CE5CF2400CB332E /* SubDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubDetailViewController.m; sourceTree = "<group>"; };
+		D1083ACF1CE764D100CB332E /* GitHubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubViewController.h; sourceTree = "<group>"; };
+		D1083AD01CE764D100CB332E /* GitHubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubViewController.m; sourceTree = "<group>"; };
+		D1083AD31CE786A400CB332E /* GitHubDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubDetailViewController.h; sourceTree = "<group>"; };
+		D1083AD41CE786A400CB332E /* GitHubDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubDetailViewController.m; sourceTree = "<group>"; };
+		D1083AD61CE82BC900CB332E /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		D11EBDCE1CE4C1AA0032E5B1 /* NickResume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NickResume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D11EBDD21CE4C1AA0032E5B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D11EBDD41CE4C1AA0032E5B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D11EBDD51CE4C1AA0032E5B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D11EBDD71CE4C1AA0032E5B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D11EBDD81CE4C1AA0032E5B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D11EBDDB1CE4C1AA0032E5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D11EBDDD1CE4C1AA0032E5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D11EBDE01CE4C1AA0032E5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D11EBDE21CE4C1AA0032E5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11EBDE81CE4C2680032E5B1 /* ResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeViewController.h; sourceTree = "<group>"; };
+		D11EBDE91CE4C2680032E5B1 /* ResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeViewController.m; sourceTree = "<group>"; };
+		D11EBDEA1CE4C2680032E5B1 /* ResumeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResumeTableViewCell.h; sourceTree = "<group>"; };
+		D11EBDEB1CE4C2680032E5B1 /* ResumeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResumeTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +61,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1083ACB1CE5BB7400CB332E /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1083AC61CE58AB400CB332E /* Autobiography */ = {
+			isa = PBXGroup;
+			children = (
+				D1083AC11CE57EA500CB332E /* AutobiographyViewController.h */,
+				D1083AC21CE57EA500CB332E /* AutobiographyViewController.m */,
+				D1083AC41CE5819700CB332E /* autobiography.txt */,
+			);
+			name = Autobiography;
+			sourceTree = "<group>";
+		};
+		D1083AD21CE764DB00CB332E /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				D1083ACF1CE764D100CB332E /* GitHubViewController.h */,
+				D1083AD01CE764D100CB332E /* GitHubViewController.m */,
+				D1083AD31CE786A400CB332E /* GitHubDetailViewController.h */,
+				D1083AD41CE786A400CB332E /* GitHubDetailViewController.m */,
+				D1083AD61CE82BC900CB332E /* sample.json */,
+			);
+			name = GitHub;
+			sourceTree = "<group>";
+		};
 		D11EBDC51CE4C1AA0032E5B1 = {
 			isa = PBXGroup;
 			children = (
+				D1083ACA1CE5BB7400CB332E /* MessageUI.framework */,
 				D11EBDD01CE4C1AA0032E5B1 /* NickResume */,
 				D11EBDCF1CE4C1AA0032E5B1 /* Products */,
 			);
@@ -62,7 +114,9 @@
 				D11EBDD51CE4C1AA0032E5B1 /* AppDelegate.m */,
 				D11EBDD71CE4C1AA0032E5B1 /* ViewController.h */,
 				D11EBDD81CE4C1AA0032E5B1 /* ViewController.m */,
-				D11EBDDA1CE4C1AA0032E5B1 /* Main.storyboard */,
+				D11EBDEF1CE4C2960032E5B1 /* Resume */,
+				D1083AC61CE58AB400CB332E /* Autobiography */,
+				D1083AD21CE764DB00CB332E /* GitHub */,
 				D11EBDDD1CE4C1AA0032E5B1 /* Assets.xcassets */,
 				D11EBDDF1CE4C1AA0032E5B1 /* LaunchScreen.storyboard */,
 				D11EBDE21CE4C1AA0032E5B1 /* Info.plist */,
@@ -77,6 +131,23 @@
 				D11EBDD21CE4C1AA0032E5B1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D11EBDEF1CE4C2960032E5B1 /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				D11EBDE81CE4C2680032E5B1 /* ResumeViewController.h */,
+				D11EBDE91CE4C2680032E5B1 /* ResumeViewController.m */,
+				D11EBDEA1CE4C2680032E5B1 /* ResumeTableViewCell.h */,
+				D11EBDEB1CE4C2680032E5B1 /* ResumeTableViewCell.m */,
+				D1083ABE1CE4E9B500CB332E /* DetailViewController.h */,
+				D1083ABF1CE4E9B500CB332E /* DetailViewController.m */,
+				D1083ACC1CE5CF2400CB332E /* SubDetailViewController.h */,
+				D1083ACD1CE5CF2400CB332E /* SubDetailViewController.m */,
+				D1083AC71CE59B4300CB332E /* ConnectionViewController.h */,
+				D1083AC81CE59B4300CB332E /* ConnectionViewController.m */,
+			);
+			name = Resume;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +207,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1083AC51CE5819700CB332E /* autobiography.txt in Resources */,
+				D1083AD71CE82BC900CB332E /* sample.json in Resources */,
 				D11EBDE11CE4C1AA0032E5B1 /* LaunchScreen.storyboard in Resources */,
 				D11EBDDE1CE4C1AA0032E5B1 /* Assets.xcassets in Resources */,
-				D11EBDDC1CE4C1AA0032E5B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +221,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11EBDED1CE4C2680032E5B1 /* ResumeTableViewCell.m in Sources */,
+				D1083AC31CE57EA500CB332E /* AutobiographyViewController.m in Sources */,
+				D1083AD51CE786A400CB332E /* GitHubDetailViewController.m in Sources */,
+				D1083ACE1CE5CF2400CB332E /* SubDetailViewController.m in Sources */,
+				D1083AD11CE764D100CB332E /* GitHubViewController.m in Sources */,
 				D11EBDD91CE4C1AA0032E5B1 /* ViewController.m in Sources */,
+				D11EBDEC1CE4C2680032E5B1 /* ResumeViewController.m in Sources */,
+				D1083AC91CE59B4300CB332E /* ConnectionViewController.m in Sources */,
 				D11EBDD61CE4C1AA0032E5B1 /* AppDelegate.m in Sources */,
 				D11EBDD31CE4C1AA0032E5B1 /* main.m in Sources */,
+				D1083AC01CE4E9B500CB332E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D11EBDDA1CE4C1AA0032E5B1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D11EBDDB1CE4C1AA0032E5B1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D11EBDDF1CE4C1AA0032E5B1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -269,6 +341,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.NickResume";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -280,6 +353,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.NickResume";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -302,6 +376,7 @@
 				D11EBDE71CE4C1AA0032E5B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

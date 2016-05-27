@@ -1,15 +1,11 @@
-//
-//  ViewController.h
-//  NickResume
-//
-//  Created by 曾偉亮 on 2016/5/12.
-//  Copyright © 2016年 TSENG. All rights reserved.
-//
+
 
 #import <UIKit/UIKit.h>
+#import "ResumeViewController.h"
 
 @interface ViewController : UIViewController
 
+-(void)refreshWithFrame:(CGRect)frame;
 
 @end
 

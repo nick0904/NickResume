@@ -1,10 +1,4 @@
-//
-//  AppDelegate.m
-//  NickResume
-//
-//  Created by 曾偉亮 on 2016/5/12.
-//  Copyright © 2016年 TSENG. All rights reserved.
-//
+
 
 #import "AppDelegate.h"
 
@@ -12,11 +6,22 @@
 
 @end
 
-@implementation AppDelegate
+@implementation AppDelegate {
+    
+    ViewController *mainVC;
+}
 
+@synthesize window,nav;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    mainVC = [[ViewController alloc] init];
+    nav = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    [mainVC refreshWithFrame:window.frame];
+    [window setRootViewController:nav];
+    [window makeKeyAndVisible];
+
     return YES;
 }
 
