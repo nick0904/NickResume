@@ -75,6 +75,7 @@
     }
     
     m_githubDetailVC.index = indexPath.row;
+    m_githubDetailVC.m_titleStr = ary_titleStr[indexPath.row];
     [self.navigationController pushViewController:m_githubDetailVC animated:YES];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }

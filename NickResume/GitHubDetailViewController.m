@@ -98,21 +98,7 @@
     NSString *urlStr = [dic_app objectForKey:@"github"];
     [m_connectionBt setTitle:[str stringByAppendingString:urlStr] forState:UIControlStateNormal];
     
-    switch (index) {
-        case 0:
-            self.title = @"RGB調色盤";
-            break;
-        case 1:
-            self.title = @"圈圈叉叉";
-            break;
-        case 2:
-            self.title = @"猜數字遊戲";
-        case 3:
-            self.title = @"台北市動物之家";
-            break;
-        default:
-            break;
-    }
+    self.title = _m_titleStr;
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
