@@ -39,7 +39,7 @@
                 {
                 "id":"5",
                 "name":"compare",
-                "github":"https://github.com/nick0904/Compare.git",
+                "github":"https://github.com/nick0904/CompareApp.git",
                 "imgStr":["compareSample_0.png","compareSample_1.png","compareSample_2.png","compareSample_3.png","compareSample_4.png","compareSample_5.png","compareSample_6.png"],
                 "content":["App首頁 可選擇抽牌 或 樂透機 來比大小","生成15張撲克牌","玩家1 與 玩家2 各選一張","按下 VS鈕 揭曉結果","樂透機比大小","玩家按下轉動扭 便可得到一顆樂透球","勝負揭曉"]
                 },
