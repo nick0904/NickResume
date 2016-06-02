@@ -20,7 +20,7 @@
                     "name":"guess",
                     "github":"https://github.com/nick0904/GuessNumber.git",
                     "imgStr":["guessSample_0.png","guessSample_1.png","guessSample_2.png","guessSample_3.png","guessSample_4.png","guessSample_5.png"],
-                    "content":["猜字母遊戲畫面","點擊左下角選單","每個小遊戲有個別的提示說明","猜數次遊戲畫面","猜對數字時的畫面","猜單一數字遊戲畫面"]
+                    "content":["猜字母遊戲畫面","點擊左下角選單","每個小遊戲有個別的提示說明","猜數字遊戲畫面","猜對數字時的畫面","猜單一數字遊戲畫面"]
                 },
                 {
                     "id":"3",

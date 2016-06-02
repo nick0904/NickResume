@@ -44,7 +44,7 @@
     
     //****************  soho  ****************
     //sohoStr
-    sohoStr = @"配合客戶繪製與修改相關工程圖:\n  1.結構施工圖。\n  2.裝修施工圖。\n  3.工程竣工圖。";
+    sohoStr = @"配合客戶繪製與修改相關工程圖:\n  1.結構施工圖。\n  2.裝修施工圖。\n  3.工程竣工圖。\n  4.3D建模";
     //ary_sohoImg
     ary_sohoImg = [NSArray arrayWithObjects:[UIImage imageNamed:@"autocad_0.png"],[UIImage imageNamed:@"autocad_1.png"],[UIImage imageNamed:@"autocad_2.png"],[UIImage imageNamed:@"autocad_3.png"],[UIImage imageNamed:@"autocad_4.png"], nil];
     
