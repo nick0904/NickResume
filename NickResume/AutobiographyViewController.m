@@ -20,13 +20,18 @@
     
     UITextView *textView = [[UITextView alloc] initWithFrame:CGRectMake(0,0, frame.size.width *0.9, (frame.size.height)*0.88 - navH)];
     textView.center = CGPointMake(frame.size.width/2, frame.size.height/2 );
-    textView.text = str;
-    textView.font = [UIFont systemFontOfSize:textView.frame.size.width/15];
     textView.contentSize = CGSizeMake(frame.size.width, frame.size.height - 2*navH);
     textView.contentOffset = CGPointMake(0, navH);
     textView.editable = NO;
     [self.view addSubview:textView];
     
+    //****************  每行間距  *******************
+    NSMutableParagraphStyle *paragraphyStyle = [NSMutableParagraphStyle new];
+    paragraphyStyle.lineSpacing = 5.0;
+    
+    NSDictionary *textAttribute = @{NSFontAttributeName:[UIFont italicSystemFontOfSize:textView.frame.size.width/15],NSParagraphStyleAttributeName:paragraphyStyle};
+    
+    textView.attributedText = [[NSAttributedString alloc] initWithString:str attributes:textAttribute];
 }
 
 - (void)didReceiveMemoryWarning {
