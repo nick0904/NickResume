@@ -36,6 +36,7 @@
     ary_school = [NSMutableArray new];
     [ary_school insertObject:@"國立台北科技大學\n土木防災研究所\n2008／09～2011／07(肄業)" atIndex:0];
     [ary_school insertObject:@"國立臺灣海洋大學\n河海工程學系\n2004／09～2008／06(畢業)" atIndex:1];
+    [ary_school insertObject:@"高雄市私立道明高級中學\n普通科\n2001／09～2004／06(畢業)" atIndex:2];
     
     //***********  ary_work  *************
     ary_work = [NSMutableArray new];
